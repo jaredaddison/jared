@@ -38,4 +38,4 @@ CustomInput:
   dynamic-route: Demo of dynamic route
   hi: Hi, {name}!
   whats-your-name: What's your name?
-not-found: Not found
+  not-found: Not found

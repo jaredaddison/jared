@@ -20,7 +20,7 @@ const cat = () => {
 
 <template>
   <div
-    class="dark:bg-gradient-to-tr from-gray-600 via-gray-700 to-gray-900 min-h-screen min-w-screen relative overflow-hidden"
+    class="bg-gradient-to-tr from-hex-f1f1f1 via-hex-009ca6 to-hex-121212 min-h-screen min-w-screen relative overflow-hidden"
   >
     <div class="hidden sm:block sm:absolute sm:h-full sm:w-full sm:inset-y-0">
       <div class="h-full mx-auto max-w-7xl relative">
@@ -91,8 +91,8 @@ const cat = () => {
         </svg>
       </div>
     </div>
-    <div class="pt-3 pb-12 relative sm:pb-20">
-      <header class="mx-auto mt-16 max-w-5xl px-4 sm:mt-24">
+    <div class="pt-3 pb-6 relative sm:pb-14">
+      <header class="mx-auto mt-5 max-w-5xl px-4 sm:mt-12">
         <div class="text-center">
           <h1
             class="font-extrabold tracking-tight text-4xl text-gray-900 sm:text-5xl md:text-6xl"
@@ -195,3 +195,8 @@ const cat = () => {
     </div>
   </div>
 </template>
+
+<route lang="yaml">
+meta:
+  layout: default
+</route>
