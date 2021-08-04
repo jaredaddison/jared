@@ -109,7 +109,7 @@ const user = {
     'https://drjaredaddison.com/wp-content/uploads/2021/08/6ec5d08361a395d217863b6aeb03626e.jpg',
 }
 const navigation = [
-  { name: 'VETSHome', href: '#', current: true }
+  { name: 'VETSHome', to: '#', current: true }
 ]
 
 const userNavigation = []
